@@ -1,0 +1,264 @@
+.main_form{
+	border: 0px solid black;
+	width: 50%;
+	margin: 0 auto;
+	height: auto;
+	background-color: skyblue;
+}
+
+.form{
+	border: 0px solid black;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+
+}
+.form_left{
+	border: 0px solid red;
+	height: auto;
+	width: 20%;
+	display: inline-block;
+	margin: 5px;
+}
+
+
+.form_left label {
+	font-size: 20px;
+
+
+}
+
+.form_right{
+	border: 0px solid red;
+
+	height: auto;
+	width:auto;
+	display: inline-block;
+	margin: 5px;
+}
+.form_submit{
+	border: 0px solid red;
+	height: auto;
+	width: 300px;
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+}
+
+
+
+
+.form_right_right{
+	border: 0px solid black;
+	width: auto;
+	height: auto;
+	display: inline-block;
+	margin: 5px;
+
+}
+
+.form_right input[type=text], input[type=password], input[type=number], input[type=file], input[type=date]{
+	font-size: 20px;
+	border-radius:5px;
+	padding: 5px 0;
+}
+
+
+
+.form_right, input[type=checkbox]{
+	font-size: 20px;
+
+}
+.form_right_date{
+	border: 10px solid reds;
+	width: 235px;
+	padding: 5px 10px;
+	font-size: 20px;
+}
+
+.form_right select{
+	width: 260px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 2px solid black;
+	font-size: 20px;
+}
+
+.form_right textarea{
+	width: 250px;
+	height: 100px;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+.form_right input[type=submit]{
+	font-size: 20px;
+}
+
+
+
+/*
+***************************
+***************************
+********Mobile Css*********
+***************************
+****************************/
+
+
+@media(min-width: 280px) and (max-width: 767px)
+{
+
+
+	.main_form{
+	border: 0px solid black;
+	width:98%;
+	margin: 0 auto;
+	height: auto;
+	background-color: skyblue;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.form{
+	border: 0px solid black;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+
+}
+.form_left{
+	border: 0px solid red;
+	height: auto;
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+}
+
+.margin_top{
+	border: 0px solid black;
+	margin-bottom: 100px;
+}
+
+
+
+.form_left label {
+	font-size: 20px;
+	margin: 0;
+
+}
+form_right label{
+	margin: 50px;
+}
+
+
+
+.form_right{
+	border: 0px solid red;
+
+	height: auto;
+	width:100%;
+	display: inline-block;
+	margin: 0;
+}
+
+
+
+
+.form_right_right{
+	border: 0px solid black;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	margin: 0;
+
+}
+
+.form_right input[type=text], input[type=password], input[type=number], input[type=date],input[type="checkbox"]{
+	font-size: 20px;
+	border-radius:5px;
+	margin-bottom: 15px;
+	padding: 5px auto;
+}
+
+.form_right input[type=file]{
+	font-size: 20px;
+	border-radius:5px;
+	margin-bottom: 15px;
+	padding: 5px ;
+	width: 100%;
+}
+				
+
+.form_right input[type="radio"]{
+	margin-bottom: 25px;
+}
+
+
+.form_right, input[type=checkbox]{
+	font-size: 20px;
+
+}
+.form_right_date{
+	border: 10px solid reds;
+	width: 100%;
+	padding: 5px 10px;
+	font-size: 20px;
+}
+                                       
+.form_right select{
+	width: 100%;
+	padding: 5px 0;
+	border-radius: 5px;
+	border: 1px solid black;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.form_right textarea{
+	width: 100%;
+	height: 100px;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+.form_right input[type=submit]{
+	font-size: 20px;
+	margin-top: 0px;
+
+	
+}
+
+
+}
+
+
+
+
+/*
+***************************
+***************************
+********Teblet Css*********
+***************************
+****************************/
+
+
+@media(min-width:768px) and (max-width:1023px)
+{
+
+	.main_form{
+	width: 100%;
+}
+
+}
+
+
+/**********************************************************************************************************************************.*/
+/*******************************              iPad        *************************************************************************.*/
+/**********************************************************************************************************************************.*/
+
+@media(min-width:1024px) and (max-width:1365px)
+{
+	.main_form
+	{
+		width: 70%;
+	}
+
+}
